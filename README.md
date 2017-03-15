@@ -7,16 +7,19 @@ Project based on [ICDAR2013 - Gender Prediction from Handwriting](https://www.ka
 There are three separated files to execute the different approaches
 
 File mainBaseLine executes:
-	- Baseline model(default)
-
-File mainPCAandEC executes:
-	- Feature selection considering languages(default)
-	- Weighted Majority Vote Ensembler Classifier(default)
-	- PCA(Commented Code)
-
+```
+- Baseline model(default)
+```
+File mainPCAandEC executes:´	
+```
+- Feature selection considering languages(default)
+- Weighted Majority Vote Ensembler Classifier(default)
+- PCA(Commented Code)
+```
 File mainGA executes:
-    - Genetic Algorithm approach.
-
+```
+- Genetic Algorithm approach.
+```
 To execute each program type the following commands:
 
     python mainBaseline.py
